@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: "Poppins";
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.coloum {
+    max-width: 300px;
+    min-width: 170px;
+    width: 28%;
+    height: 200px;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 0.5rem 1rem 0rem #0000005e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.second {
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec {
+    width: 100%;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    justify-content: space-evenly;
+
+}
+
+.up-text {
+    padding-left: 10%;
+    color: hsl(234, 12%, 34%);
+    font-size: 1.2rem;
+}
+
+.down-text {
+    padding-left: 10%;
+    padding-right: 10%;
+    color: hsl(229, 6%, 66%); 
+    font-size: .7rem;
+}
+
+svg {
+    position: relative;
+    right: 10%;
+    align-self: flex-end;
+}
+
+@media (max-width:599px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 1100px;
+        background-color: hsl(0, 0%, 98%);
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        justify-content: space-evenly;
+    
+    }
+
+    .coloum {
+        max-width: 270px;
+        min-width: 170px;
+        width: 90%;
+        height: 200px;
+        margin-top: 20px;;
+        background-color: white;
+        border-radius: 0.5rem;
+        box-shadow: 0.5rem 0.5rem 1rem 0rem #0000005e;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    
+    }
+    
+    .second {
+        min-width: 170px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
